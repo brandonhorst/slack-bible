@@ -1,6 +1,6 @@
 {
   "name": "slack-bible",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Post links to bible verses in Slack",
   "main": "index.js",
   "scripts": {
@@ -16,12 +16,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/brandonhorst/slack-bible.git"
   },
   "keywords": [
     "slack",
     "bible",
     "biblegateway"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandonhorst/slack-bible/issues"
+  },
+  "homepage": "https://github.com/brandonhorst/slack-bible",
+  "devDependencies": {},
+  "author": "@brandonhorst"
 }

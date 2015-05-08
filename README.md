@@ -1,3 +1,22 @@
+#bible-bot
+
+Slack bot to detect Bible Verse References in your public Slack posts, and supply links to the verses on BibleGateway.
+
+## Usage
+
+![Example usage screenshot](https://raw.github.com/brandonhorst/bible-bot/master/screenshot.png)
+
+## Configuration
+
+You can download the source and host it yourself, or you can access the public, free hosted version at https://bible-bot.herokuapp.com.
+
+Create a new "Outgoing WebHooks" Slack Integration:
+
+- Either pick a `Channel` for the bot to operate on, or pick a list of `Trigger Words`. A recommended trigger word list is supplied below, which will activate if any post starts with `bible`, `bib`, `b`, or any valid bible chapter or abbreviation.
+- `URL`: `https://bible-bot.herokuapp.com`
+- `Token` is unused
+
+
 ### Abbreviations
 
 Taken from [here](https://www.logos.com/support/windows/L3/book_abbreviations)
