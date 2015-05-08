@@ -9,7 +9,7 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 var booksWithPipes = _.chain(books).values().flatten().join('|').value()
-var regex = new RegExp('(' + booksWithPipes + ')\\.?\\s*(\\d{1,3})(?:\\s*[\\:\\s]\s*(\\d{1,3})(?:\\s*[\\-\\s]\\s*(\\d{1,3}))?)?', 'ig')
+var regex = new RegExp('(' + booksWithPipes + ')\\.?\\s*(\\d{1,3})(?:\\s*[\\:\\s]\\s*(\\d{1,3})(?:\\s*[\\-\\s]\\s*(\\d{1,3}))?)?', 'ig')
 
 function reverseLookup (abbr) {
   return _.findKey(books, function (abbrs) {return _.includes(abbrs, abbr.toLowerCase())})
