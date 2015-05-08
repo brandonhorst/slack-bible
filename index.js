@@ -26,19 +26,23 @@ app.post('/', function(request, response) {
     results.push(trueRef)
   }
 
-  var attachments = _.map(results, function (result) {
-    var title = result.replace('+', ' ')
-    var link = 'https://biblegateway.com/bible?passage=' + result
+  if (results.length > 0) {
+    var attachments = _.map(results, function (result) {
+      var title = result.replace('+', ' ')
+      var link = 'https://biblegateway.com/bible?passage=' + result
 
-    return {
-      title: title,
-      title_link: link,
-      fallback: title + ' - ' + link,
-      color: 'good'
-    }
-  })
+      return {
+        title: title,
+        title_link: link,
+        fallback: title + ' - ' + link,
+        color: 'good'
+      }
+    })
 
-  response.json({text: 'Referenced verses:', attachments: attachments})
+    response.json({text: 'Referenced verses:', attachments: attachments})
+  } else {
+    response.json({})
+  }
 })
 
 app.listen(app.get('port'), function() {
