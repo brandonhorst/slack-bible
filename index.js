@@ -38,7 +38,7 @@ app.post('/', function(request, response) {
     }
   })
 
-  response.json({text: 'bible stuff', attachments: attachments})
+  response.json({text: 'Referenced verses:', attachments: attachments})
 })
 
 app.listen(app.get('port'), function() {
