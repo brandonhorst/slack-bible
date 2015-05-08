@@ -26,11 +26,19 @@ app.post('/', function(request, response) {
     results.push(trueRef)
   }
 
-  var outputText = _.map(results, function (result) {
-    return 'https://biblegateway.com?passage=' + result
-  }).join('\n')
+  var attachments = _.map(results, function (result) {
+    var title = result.replace('+', ' ')
+    var link = 'https://biblegateway.com/bible?passage=' + result
 
-  response.json({text: outputText})
+    return {
+      title: title,
+      title_link: link,
+      fallback: title + ' - ' + link,
+      color: 'good'
+    }
+  })
+
+  response.json({attachments: attachments})
 })
 
 app.listen(app.get('port'), function() {

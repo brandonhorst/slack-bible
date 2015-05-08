@@ -1,36 +1,10 @@
-# node-js-getting-started
+### Abbreviations
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+Taken from [here](https://www.logos.com/support/windows/L3/book_abbreviations)
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
 
-## Running Locally
-
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
-
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
+### Here is a useful list of trigger words
 
 ```
-$ heroku create
-$ git push heroku master
-$ heroku open
+bible,bib,Gen,Ge,Gn,Exo,Ex,Exod,Lev,Le,Lv,Num,Nu,Nm,Nb,Deut,Dt,Josh,Jos,Jsh,Judg,Jdg,Jg,Jdgs,Rth,Ru,1 Sam,1 Sa,1Samuel,1S,I Sa,1 Sm,1Sa,I Sam,1Sam,I Samuel,1st Samuel,First Samuel,2 Sam,2 Sa,2S,II Sa,2 Sm,2Sa,II Sam,2Sam,II Samuel,2Samuel,2nd Samuel,Second Samuel,1 Kgs,1 Ki,1K,I Kgs,1Kgs,I Ki,1Ki,I Kings,1Kings,1st Kgs,1st Kings,First Kings,First Kgs,1Kin,2 Kgs,2 Ki,2K,II Kgs,2Kgs,II Ki,2Ki,II Kings,2Kings,2nd Kgs,2nd Kings,Second Kings,Second Kgs,2Kin,1 Chron,1 Ch,I Ch,1Ch,1 Chr,I Chr,1Chr,I Chron,1Chron,I Chronicles,1Chronicles,1st Chronicles,First Chronicles,2 Chron,2 Ch,II Ch,2Ch,II Chr,2Chr,II Chron,2Chron,II Chronicles,2Chronicles,2nd Chronicles,Second Chronicles,Ezra,Ezr,Neh,Ne,Esth,Es,Job,Job,Jb,Pslm,Ps,Psalms,Psa,Psm,Pss,Prov,Pr,Prv,Eccles,Ec,Ecc,Qoh,Qoheleth,Song,So,Canticle of Canticles,Canticles,Song of Songs,SOS,Isa,Is,Jer,Je,Jr,Lam,La,Ezek,Eze,Ezk,Dan,Da,Dn,Hos,Ho,Joel,Joe,Jl,Amos,Am,Obad,Ob,Jnh,Jon,Micah,Mic,Nah,Na,Hab,Hab,Zeph,Zep,Zp,Haggai,Hag,Hg,Zech,Zec,Zc,Mal,Mal,Ml,Tobit,Tob,Tb,Jdth,Jdt,Jth,Add Esth,Add Es,Rest of Esther,The Rest of Esther,AEs,AddEsth,Wisd of Sol,Wis,Ws,Wisdom,Sirach,Sir,Ecclesiasticus,Ecclus,Baruch,Bar,Let Jer,Let Jer,LJe,Ltr Jer,Song of Three,Song Thr,The Song of Three Youths,Pr Az,Prayer of Azariah,Azariah,The Song of the Three Holy Children,The Song of Three Jews,Song of the Three Holy Children,Song of Thr,Song of Three Children,Song of Three Jews,Susanna,Sus,Bel,Bel,1 Macc,1 Mac,1M,I Ma,1Ma,I Mac,1Mac,I Macc,1Macc,I Maccabees,1Maccabees,1st Maccabees,First Maccabees,2 Macc,2 Mac,2M,II Ma,2Ma,II Mac,2Mac,II Macc,2Macc,II Maccabees,2Maccabees,2nd Maccabees,Second Maccabees,1 Esdr,1 Esd,I Es,1Es,I Esd,1Esd,I Esdr,1Esdr,I Esdras,1Esdras,1st Esdras,First Esdras,Pr of Man,Pr Man,PMa,Prayer of Manasses,Add Psalm,Add Ps,3 Macc,3 Mac,III Ma,3Ma,III Mac,3Mac,III Macc,3Macc,III Maccabees,3rd Maccabees,Third Maccabees,2 Esdr,2 Esd,II Es,2Es,II Esd,2Esd,II Esdr,2Esdr,II Esdras,2Esdras,2nd Esdras,Second Esdras,4 Macc,4 Mac,IV Ma,4Ma,IV Mac,4Mac,IV Macc,4Macc,IV Maccabees,IIII Maccabees,4Maccabees,4th Maccabees,Fourth Maccabees,Ode,Ode,Ps Solomon,Ps Sol,Psalms Solomon,PsSol,Laodiceans,Laod,Ep Laod,Epist Laodiceans,Epistle Laodiceans,Epistle to Laodiceans,Matt,Mt,Mrk,Mk,Mr,Luk,Lk,John,Jn,Jhn,Acts,Ac,Rom,Ro,Rm,1 Cor,1 Co,I Co,1Co,I Cor,1Cor,I Corinthians,1Corinthians,1st Corinthians,First Corinthians,2 Cor,2 Co,II Co,2Co,II Cor,2Cor,II Corinthians,2Corinthians,2nd Corinthians,Second Corinthians,Gal,Ga,Ephes,Eph,Phil,Php,Col,Col,1 Thess,1 Th,I Th,1Th,I Thes,1Thes,I Thess,1Thess,I Thessalonians,1Thessalonians,1st Thessalonians,First Thessalonians,2 Thess,2 Th,II Th,2Th,II Thes,2Thes,II Thess,2Thess,II Thessalonians,2Thessalonians,2nd Thessalonians,Second Thessalonians,1 Tim,1 Ti,I Ti,1Ti,I Tim,1Tim,I Timothy,1Timothy,1st Timothy,First Timothy,2 Tim,2 Ti,II Ti,2Ti,II Tim,2Tim,II Timothy,2Timothy,2nd Timothy,Second Timothy,Titus,Tit,Philem,Phm,Hebrews,Heb,James,Jas,Jm,1 Pet,1 Pe,I Pe,1Pe,I Pet,1Pet,I Pt,1 Pt,1Pt,I Peter,1Peter,1st Peter,First Peter,2 Pet,2 Pe,II Pe,2Pe,II Pet,2Pet,II Pt,2 Pt,2Pt,II Peter,2Peter,2nd Peter,Second Peter,1 John,1 Jn,I Jn,1Jn,I Jo,1Jo,I Joh,1Joh,I Jhn,1 Jhn,1Jhn,I John,1John,1st John,First John,2 John,2 Jn,II Jn,2Jn,II Jo,2Jo,II Joh,2Joh,II Jhn,2 Jhn,2Jhn,II John,2John,2nd John,Second John,3 John,3 Jn,III Jn,3Jn,III Jo,3Jo,III Joh,3Joh,III Jhn,3 Jhn,3Jhn,III John,3John,3rd John,Third John,Jude,Jud,Rev,Re,The Revelation
 ```
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
